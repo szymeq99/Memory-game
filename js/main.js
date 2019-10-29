@@ -81,6 +81,7 @@ document.getElementById('container').addEventListener('click', function (e) {
     }
 
     /* Wyswietlnie informacji o koncu gry */
+    
     if (arrayResult.length == 20) {
         document.getElementById('finish').classList.add('finish');
         document.getElementById('finish').innerText = "Gratulacje wygrałeś!"
